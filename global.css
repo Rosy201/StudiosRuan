@@ -1,0 +1,28 @@
+.background {
+    /* background-color: #3400a4; */
+    background: radial-gradient(circle, #3400a4, #daa634, #6d4ca5);
+
+}
+.container {
+    display: flex;            
+    align-items: flex-start; /* Alinha os itens no topo da div */
+    margin: 30px;
+}
+
+.container ul {
+    display: flex;            /* Alinha os itens da lista em linha */
+    list-style-type: none;     /* Remove os marcadores da lista */
+    padding: 4px;               /* Remove o padding do contêiner */
+    margin: 0;                /* Remove a margem do contêiner */
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+
+.container li {
+    margin-right: 10px;
+}
+
+.container > img {
+    margin-top: 12px;
+    margin-left: 400px;
+}
